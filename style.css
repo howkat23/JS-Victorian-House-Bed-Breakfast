@@ -1,0 +1,74 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2014/06/28/02/25/new-england-378726_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-color:#FDFDBD;
+}
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 725px;
+    border-radius: 40px;
+    color: #F7E2D6;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Dancing Script', cursive;
+    color: #FF9F29;
+    font-size: 30px;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {    
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    color: #A10035;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+input {
+    
+    font-family: 'Dancing Script', cursive;
+    padding: 5px;
+}
+#addResortFee {
+    background-color: #FF5B00;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#btn {
+    background-color: #FFE7BF;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+#fee {
+    font-family: 'Dancing Script', cursive;
+    display: none;
+}
+#showTotalAmountToPay {
+    display: flex;
+}
+#billSplit, #totalResortFee, #totalAmount {   
+    font-family: 'Dancing Script', cursive;
+    color: #D2001A;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: beige;
+}
+

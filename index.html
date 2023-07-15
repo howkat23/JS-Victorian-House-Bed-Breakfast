@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Module-8-Bed & Breakfast</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <h1>Victorian House Bed & Breakfast</h1>
+    </div>
+        <div id="container">
+        <form>
+            <p>💰Bill</p>
+            <span>$
+            <input type="text" id="bill" placeholder="Bill">
+            </span>
+        <p>Number of guests</p>
+        <span>
+        <input type="text" id="guests" placeholder="How many guests?"></span>
+        <p>💖Thank you for staying with us💖</p>
+        <button id="addResortFee">Resort Fee</button>
+        <select id="resortFee">
+            <option disabled>Select an option</option>
+            <option value="0.30">King Room with Lake View 30%🧡</option>
+            <option value="0.20">Queen Room with Mount View 20% 💚</option>
+            <option value="0.1">Two Beds Room with Garden View 10% 💙</option>
+        </select>
+        <button id="btn">Calculate</button>        
+        </form>
+    
+    <div id="showTotalAmountToPay">
+        <!-- 1st block -->
+        <div id="billSplit">
+            <p>Bill</p>
+            <span>$</span>
+            <span id="dividedBill"></span>
+            <span>per guests</span>
+        </div>
+        <!-- 2nd block -->
+        <div id="totalResortFee">
+            <p>Resort Fee</p>
+            <span>$</span>
+            <span id="dividedResortFee"></span>
+            <span>per guests</span>
+        </div>
+        <!-- 3rd block -->
+        <div id="totalAmount">
+            <p>Resort Fee</p>
+            <span>$</span>
+            <span id="billAndResortFee"></span>
+            <span>per guests</span>
+        </div>
+
+
+    </div>    
+</div>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="index.js"></script>
+</body>
+</html>
+
+
